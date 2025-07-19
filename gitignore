@@ -1,0 +1,30 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos de configuração de Jupyter
+.ipynb_checkpoints/
+
+# Banco de dados SQLite local, se for temporário
+*.sqlite3
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de output de pacotes/pip
+*.egg-info/
+dist/
+build/
